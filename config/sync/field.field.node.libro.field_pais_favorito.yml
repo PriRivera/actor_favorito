@@ -1,0 +1,23 @@
+uuid: b117ef6b-9239-483a-b8f1-3c882d75f025
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pais_favorito
+    - node.type.libro
+  module:
+    - actor_favorito
+id: node.libro.field_pais_favorito
+field_name: field_pais_favorito
+entity_type: node
+bundle: libro
+label: 'Pais favorito del author'
+description: 'Elige el pais que mas te guste'
+required: false
+translatable: false
+default_value:
+  -
+    value: CR
+default_value_callback: ''
+settings: {  }
+field_type: nacionalidad_field_type

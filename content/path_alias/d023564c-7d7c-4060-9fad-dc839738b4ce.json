@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "d023564c-7d7c-4060-9fad-dc839738b4ce"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/historia"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

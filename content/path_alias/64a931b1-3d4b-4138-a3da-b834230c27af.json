@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "64a931b1-3d4b-4138-a3da-b834230c27af"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/9"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/lolo-brenes"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

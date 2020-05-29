@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "71ff1fb5-b56b-4c53-92d7-29e270666e41"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/8"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/andy-rojas"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

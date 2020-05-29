@@ -1,0 +1,24 @@
+uuid: 9bfa487b-e0cf-43ae-a673-34a317759019
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.filtrar_por_autor
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__filtrar_por_autor_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:filtrar_por_autor-block_1'
+settings:
+  id: 'views_block:filtrar_por_autor-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

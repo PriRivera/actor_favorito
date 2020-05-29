@@ -1,0 +1,24 @@
+uuid: f95a56c0-9358-4b43-b2ed-1cb440121dce
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.filtrar_por_categoria
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__filtrar_por_categoria_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:filtrar_por_categoria-block_1'
+settings:
+  id: 'views_block:filtrar_por_categoria-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

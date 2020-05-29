@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "1735f7ef-64f2-43ad-97f1-3da0e7cbc57b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/6"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/priscilla-rivera"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

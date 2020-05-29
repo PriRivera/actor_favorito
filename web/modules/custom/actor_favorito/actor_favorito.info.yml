@@ -1,0 +1,6 @@
+name: "Actor favorito"
+type: module
+description: "Este modulo te permite agregar un actor favorito"
+package: "Custom"
+core: 8.x
+configure: actor_favorito.form

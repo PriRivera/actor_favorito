@@ -1,0 +1,51 @@
+uuid: a3744adb-c487-46ff-86a6-0a963214a638
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.libro.field_author_del_ibro
+    - field.field.node.libro.field_book_cover
+    - field.field.node.libro.field_categoria
+    - field.field.node.libro.field_descripcion
+    - field.field.node.libro.field_isbn
+    - field.field.node.libro.field_pais_favorito
+    - field.field.node.libro.field_titulo
+    - image.style.thumbnail
+    - node.type.libro
+  module:
+    - image
+    - text
+    - user
+id: node.libro.teaser
+targetEntityType: node
+bundle: libro
+mode: teaser
+content:
+  field_book_cover:
+    type: image
+    weight: 2
+    region: content
+    label: visually_hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+  field_titulo:
+    type: text_default
+    weight: 1
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_author_del_ibro: true
+  field_categoria: true
+  field_descripcion: true
+  field_isbn: true
+  field_pais_favorito: true

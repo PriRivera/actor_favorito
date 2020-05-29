@@ -1,0 +1,26 @@
+actor_favorito.actor_favorito_controller:
+  path: '/actor-favorito'
+  defaults:
+      _controller: '\Drupal\actor_favorito\Controller\ActorFavoritoController::index'
+      _title: "Actor favorito"
+  requirements:
+      _permission: "access content"
+
+actor_favorito.configuration_form:
+  path: "/admin/config/actor_favorito/configuration"
+  defaults:
+     _form: '\Drupal\actor_favorito\Form\ConfigurationForm'
+     _title: "Formulario de configuracion"
+  requirements:
+    _permission: "access actor_favorito configuration"
+  options:
+    _admin_route: true
+
+actor_favorito.cargar_controller_CargarAction:
+  path: '/css-y-js'
+  defaults:
+    _controller: '\Drupal\actor_favorito\Controller\CargarController::index'
+    _title: 'Cargar archivos css y js'
+  requirements:
+    _permission: 'access content'
+

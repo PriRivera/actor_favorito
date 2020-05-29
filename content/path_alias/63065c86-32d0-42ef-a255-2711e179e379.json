@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "63065c86-32d0-42ef-a255-2711e179e379"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/3"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/fantasia"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

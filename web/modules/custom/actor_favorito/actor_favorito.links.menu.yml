@@ -1,0 +1,6 @@
+actor_favorito:
+  title: "Agregar actor favorito"
+  route_name: actor_favorito.configuration_form
+  description: "Configuracion del modulo actor favorito"
+  parent: system.admin_config_system
+  weight: 99

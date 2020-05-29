@@ -1,0 +1,82 @@
+uuid: 108a4e45-f8fc-4a06-b840-48602a13f84e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.libro.field_author_del_ibro
+    - field.field.node.libro.field_book_cover
+    - field.field.node.libro.field_categoria
+    - field.field.node.libro.field_descripcion
+    - field.field.node.libro.field_isbn
+    - field.field.node.libro.field_pais_favorito
+    - field.field.node.libro.field_titulo
+    - node.type.libro
+  module:
+    - actor_favorito
+    - image
+    - text
+    - user
+id: node.libro.default
+targetEntityType: node
+bundle: libro
+mode: default
+content:
+  field_author_del_ibro:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_book_cover:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_categoria:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_descripcion:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_isbn:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_pais_favorito:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: nacionalidad_formatter
+    region: content
+  field_titulo:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

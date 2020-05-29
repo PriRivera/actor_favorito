@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "1533dd2f-3d33-4d94-8943-7ca3cda8cd77"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/10"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/nick-gonzalez"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

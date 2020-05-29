@@ -1,0 +1,3 @@
+access actor_favorito configuration:
+  title: "Actor Favorito"
+  description: "Permiso para acceder el formulario de actor favorito"

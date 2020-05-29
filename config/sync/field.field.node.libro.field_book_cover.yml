@@ -1,0 +1,38 @@
+uuid: fa918673-9d8b-4650-8e65-c003b3e6c10c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_cover
+    - node.type.libro
+  module:
+    - image
+id: node.libro.field_book_cover
+field_name: field_book_cover
+entity_type: node
+bundle: libro
+label: 'Book Cover'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '1 MB'
+  max_resolution: 1000x1000
+  min_resolution: 100x100
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,36 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+/**
+ * Implements hook_help().
+ */
+function actor_favorito_help($route_name, RouteMatchInterface $routeMatchInterface) {
+    switch ($route_name) {
+      case 'help.page.actor_favorito':
+        return '<p>' . t('
+            <h3>Acerca de</h3>
+            <p>Aca puedes agregar tu actor favorito</p>
+        ');
+      break;
+  }
+}
+/**
+ * Implements hook_theme().
+ */
+function actor_favorito_theme()
+{
+	return [
+		'load_animation' => [
+			'variables' => [
+        'name' => '',
+        'subtitle' => '',
+        'text'=> '',
+			],
+			"template" => 'load-animation'
+		],
+	];
+
+
+
+
+}

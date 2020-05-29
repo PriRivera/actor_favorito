@@ -1,0 +1,225 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/9?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/libro"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_author_del_ibro": [
+            {
+                "href": "http:\/\/default\/priscilla-rivera?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_book_cover": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-05\/portada5.jpeg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_categoria": [
+            {
+                "href": "http:\/\/default\/documental?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "da37b531-2bd2-443c-8aad-f0247c940980"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "libro"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-27T22:32:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "70911116-0b15-4ec7-9826-9d2a70fb4432"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "70911116-0b15-4ec7-9826-9d2a70fb4432"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_author_del_ibro": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/priscilla-rivera?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/author"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7cb388-cadc-4da1-88b0-4e330728d44c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_book_cover": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-05\/portada5.jpeg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6554abd4-daa3-4a09-bce8-28008a43d861"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_categoria": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/documental?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f299f4ed-61ea-4774-b219-5f9ead7e5261"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Lavandera",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-27T22:14:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-27T22:32:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_descripcion": [
+        {
+            "value": "<h2>What is Lorem Ipsum?<\/h2>\r\n\r\n<p><strong>Lorem Ipsum<\/strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>\r\n\r\n<h2>Why do we use it?<\/h2>\r\n\r\n<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<h2>What is Lorem Ipsum?<\/h2>\n\n<p><strong>Lorem Ipsum<\/strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>\n\n<h2>Why do we use it?<\/h2>\n\n<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<\/p>"
+        }
+    ],
+    "field_isbn": [
+        {
+            "value": "BUEINE",
+            "format": "basic_html",
+            "processed": "BUEINE"
+        }
+    ],
+    "field_titulo": [
+        {
+            "value": "Lavandera",
+            "format": "basic_html",
+            "processed": "Lavandera"
+        }
+    ]
+}

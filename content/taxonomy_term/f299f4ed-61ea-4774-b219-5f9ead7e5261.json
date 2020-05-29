@@ -1,0 +1,84 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/documental?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria\/parent": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "f299f4ed-61ea-4774-b219-5f9ead7e5261"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "categoria"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-05-27T21:42:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Documental",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2020-05-27T21:42:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/documental",
+            "pid": 4,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

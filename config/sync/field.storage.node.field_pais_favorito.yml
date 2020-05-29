@@ -1,0 +1,19 @@
+uuid: 302e8b65-8f85-4bd2-8275-7a5eebe14349
+langcode: en
+status: true
+dependencies:
+  module:
+    - actor_favorito
+    - node
+id: node.field_pais_favorito
+field_name: field_pais_favorito
+entity_type: node
+type: nacionalidad_field_type
+settings: {  }
+module: actor_favorito
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

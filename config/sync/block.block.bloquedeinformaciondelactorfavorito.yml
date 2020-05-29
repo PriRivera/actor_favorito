@@ -1,0 +1,20 @@
+uuid: ff469794-d6a3-47f6-adf7-b17a99851ce7
+langcode: en
+status: true
+dependencies:
+  module:
+    - actor_favorito
+  theme:
+    - bartik
+id: bloquedeinformaciondelactorfavorito
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: information_block
+settings:
+  id: information_block
+  label: 'Actor Favorito'
+  provider: actor_favorito
+  label_display: visible
+visibility: {  }

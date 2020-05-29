@@ -1,0 +1,84 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/historia?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria\/parent": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "635c8318-1dc4-40e2-ac22-fa65a880fe23"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "categoria"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-05-27T21:40:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Hisotria",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2020-05-27T21:40:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/historia",
+            "pid": 1,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

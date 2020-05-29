@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "uuid": [
+        {
+            "value": "5ac50266-2659-4e3c-b11b-a8fe6e581d39"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/7"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/hiram-gonzalez"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

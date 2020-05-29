@@ -1,0 +1,10 @@
+field.widget.settings.nacionalidad_field_widget:
+  type: mapping
+  label: 'Nacionalidad field widget widget settings'
+  mapping:
+    size:
+      type: integer
+      label: 'Size'
+    placeholder:
+      type: textfield
+      label: 'Placeholder'
